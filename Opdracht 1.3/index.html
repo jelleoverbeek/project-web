@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1.3</title>
+</head>
+<body>
+
+<form action="">
+    <fieldset>
+        <legend>Naam</legend>
+
+        <label for="first-name">Voornaam</label>
+        <input id="first-name" type="text" placeholder="John">
+
+        <label for="insertion">Tussenvoegsel</label>
+        <input id="insertion" type="text">
+
+        <label for="last-name">Achternaam</label>
+        <input id="last-name" type="text" placeholder="Appleseed">
+    </fieldset>
+
+    <fieldset>
+        <legend>Contactgegevens</legend>
+
+        <label for="email">E-mailadres</label>
+        <input id="email" type="email" placeholder="email@example.com" required>
+
+        <label for="phone">Telefoonnummer</label>
+        <input id="phone" type="tel" placeholder="+316 12345678">
+    </fieldset>
+
+    <fieldset>
+        <legend>Adresgegeven</legend>
+
+        <label for="street">Straat</label>
+        <input id="street" type="text" placeholder="Kalverstraat">
+
+        <label for="streetno">Huisnummer</label>
+        <input id="streetno" type="number" placeholder="1">
+
+        <label for="zipcode">Postcode</label>
+        <input id="zipcode" type="text" placeholder="1111 AA" pattern="~\A[1-9]\d{3} ?[a-zA-Z]{2}\z~">
+    </fieldset>
+
+    <input type="submit">
+</form>
+
+</body>
+</html>
