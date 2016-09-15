@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+main {
+	max-width: 43em;
+	margin: 2em auto;
+	padding: 1.5em;
+}
+
+p {
+	line-height: 1.4em;
+}
