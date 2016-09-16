@@ -9,12 +9,20 @@ body {
 
 p {
 	line-height: 1.4em;
-	width: 20em;
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 2em;
 }
 
-section p:first-of-type {
-	margin-left: 0;
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	padding: 2em;
+	border: 5px solid #eaeaea;
+	margin: 10px;
+}
+
+article {
+	max-width: 20em;
+	min-width: 15em;
 }
